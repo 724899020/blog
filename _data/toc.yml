@@ -27,15 +27,7 @@
 
 
 # ===== NEW SECTION ========================================
-- title: Intro
-  url: intro
 - title: License
   url: LICENSE
-
-# ===== NEW SECTION ========================================
-- title: Features
-  url: /features/features
-- title: Markdown
-  url: /features/markdown
-- title: Notebooks
-  url: /features/notebooks
+- title: 基础知识
+  url: 基础知识

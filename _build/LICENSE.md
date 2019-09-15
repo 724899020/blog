@@ -3,11 +3,11 @@ redirect_from:
   - "license"
 title: 'License'
 prev_page:
-  url: /intro.html
-  title: 'Intro'
+  url: 
+  title: ''
 next_page:
-  url: /features/features.html
-  title: 'Features'
+  url: /基础知识.html
+  title: '基础知识'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 # License for this book
