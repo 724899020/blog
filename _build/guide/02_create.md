@@ -21,7 +21,7 @@ Running the following command will create a new Jupyter Book with a few
 content pages and a Table of Contents to get you started:
 
 ```
-jupyter-book create mybookname
+blog create mybookname
 ```
 
 This will create a new book using your content in `mybookname/`. You'll then need to
@@ -35,17 +35,17 @@ to it, you can quickly **generate a basic Table of Contents** by running
 the following command:
 
 ```
-jupyter-book toc mybookname/
+blog toc mybookname/
 ```
 
 ## by modifying the Demo Book
 
 If you'd like to see a more fully-functioning demo book for inspiration, you can
-create the book that lives at the [jupyter-book website](https://jupyter.org/jupyter-book)
+create the book that lives at the [blog website](/blog)
 by adding the `--demo` flag:
 
 ```
-jupyter-book create mybookname --demo
+blog create mybookname --demo
 ```
 
 See the previous section for a description of all of the relevant files you
@@ -78,7 +78,7 @@ You can generate a Jupyter Book from it with the following command:
 
 
 ```
-jupyter-book create mybookname --content-folder myoldbook/content \
+blog create mybookname --content-folder myoldbook/content \
                                --toc myoldbook/_data/toc.yml \
                                --config myoldbook/_config.yml \
                                --license myoldbook/mylicense.md \

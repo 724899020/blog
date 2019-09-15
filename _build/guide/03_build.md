@@ -25,7 +25,7 @@ your book.
 Build your book by running the following command:
 
 ```
-jupyter-book build mybookname/
+blog build mybookname/
 ```
 
 This will:
@@ -37,7 +37,7 @@ This will:
   * Clean up formatting issues for things like MathJax to display properly
   * Place all these generated files in the `mybookname/_build/` directory.
 
-Note that `jupyter-book` will automatically update any files in `_build/` that are older
+Note that `blog` will automatically update any files in `_build/` that are older
 than the timestamp of the corresponding file in your `content/` folder.
 
 From here, you have **two options**
@@ -89,7 +89,7 @@ to guide you through this process.
 Once Docker is available on your system, you can build the image locally with:
 
 ```bash
-docker pull emdupre/jupyter-book
+docker pull emdupre/blog
 ```
 
 You can then access this image with the following command.
@@ -100,13 +100,13 @@ docker run --rm --security-opt label:disable  \
    -v /full/path/to/your/book:/srv/jekyll \
    -p 4000:4000 \
    -it -u 1000:1000 \
-   emdupre/jupyter-book bundle exec jekyll serve --host 0.0.0.0
+   emdupre/blog bundle exec jekyll serve --host 0.0.0.0
 ```
 
-If you navigate to `http://0.0.0.0:4000/jupyter-book/` in your browser,
+If you navigate to `http://0.0.0.0:4000/blog/` in your browser,
 you should see a preview copy of your book.
 If you instead see an error, please try to update your local book;
-see [the Jupyter Book FAQ section](https://jupyter.org/jupyter-book/guide/04_faq.html#how-can-i-update-my-book)
+see [the Jupyter Book FAQ section](/blog/guide/04_faq.html#how-can-i-update-my-book)
 for more details on how to do so.
 
 ### Building your site locally with Containers: Singularity
@@ -120,7 +120,7 @@ on your system.
 You can then create a Jupyter Book Singularity image using:
 
 ```bash
-singularity build jupyter-book.simg docker://emdupre/jupyter-book
+singularity build blog.simg docker://emdupre/blog
 ```
 
 Next, you can access this image with the following command.
@@ -129,10 +129,10 @@ Make sure to specify the full path to your Jupyter Book, rather than the relativ
 ```bash
 singularity run -B /full/path/to/your/book:/srv/jekyll \
     --pwd /srv/jekyll \
-    jupyter-book.simg bundle exec jekyll serve
+    blog.simg bundle exec jekyll serve
 ```
 
-And that's it! If you navigate to `http://127.0.0.1:4000/jupyter-book/` in your browser,
+And that's it! If you navigate to `http://127.0.0.1:4000/blog/` in your browser,
 you should see a preview copy of your book.
 
 ### Building your site locally with Ruby
@@ -226,8 +226,8 @@ https://github.com/new
    git clone https://github.com/<my-org>/<my-book-name>
    ```
 
-4. Copy all of your book files and folders (what was created when you ran `jupyter-book create mybook`)
-   into the new repository. For example, if you created your book locally with `jupyter-book create mylocalbook`
+4. Copy all of your book files and folders (what was created when you ran `blog create mybook`)
+   into the new repository. For example, if you created your book locally with `blog create mylocalbook`
    and your online repository is called `myonlinebook`, the command would be:
 
    ```bash

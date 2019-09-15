@@ -11,7 +11,7 @@ next_page:
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 This page contains more advanced and complete information about the
-[`jupyter-book` repository](https://github.com/jupyter/jupyter-book). See the sections below.
+[`blog` repository](https://github.com/jupyter/blog). See the sections below.
 
 ## Enable Google Analytics
 

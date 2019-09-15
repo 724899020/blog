@@ -28,7 +28,7 @@ For example, click the `Search` link in the TOC of this demo book.
 
 ## Customizing how much text is stored in search
 
-The Jupyter-Book search works by storing excerpts of text from each page. This
+The blog search works by storing excerpts of text from each page. This
 ensures that the search process itself doesn't take too long. However, it also
 means that *some* of your content will not be searched, because it is past the
 cutoff point for the search cache.

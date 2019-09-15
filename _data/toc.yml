@@ -21,7 +21,7 @@
 # folder breaks.
 # 
 # See the demo `toc.yml` for the right structure to follow. You can 
-# generate a demo book by running `jupyter-book create mybook --demo`
+# generate a demo book by running `blog create mybook --demo`
 # ==============================
 
 

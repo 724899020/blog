@@ -17,7 +17,7 @@ You can also create content with Jupyter Notebooks. The content for the current 
 in a Jupyter Notebook in the `notebooks/` folder of the repository. This means that we can include
 code blocks and their outputs, and export them to Jekyll markdown.
 
-**You can find the original notebook for this page [at this address](https://github.com/jupyter/jupyter-book/blob/master/jupyter_book/book_template/content/features/notebooks.ipynb)**
+**You can find the original notebook for this page [at this address](https://github.com/jupyter/blog/blob/master/jupyter_book/book_template/content/features/notebooks.ipynb)**
 
 ## Markdown + notebooks
 
@@ -108,7 +108,7 @@ Note that the image above is captured and displayed by Jekyll.
 ## Removing content before publishing
 
 You can also remove some content before publishing your book to the web. For example,
-in [the original notebook](https://github.com/jupyter/jupyter-book/blob/master/notebooks/introduction/notebooks.ipynb) there
+in [the original notebook](https://github.com/jupyter/blog/blob/master/notebooks/introduction/notebooks.ipynb) there
 used to be a cell below...
 
 
@@ -118,7 +118,7 @@ used to be a cell below...
 You can also **remove only the code** so that images and other output still show up.
 
 Below we'll *only* display an image. It was generated with Python code in a cell,
-which you can [see in the original notebook](https://github.com/jupyter/jupyter-book/blob/master/notebooks/introduction/notebooks.ipynb)
+which you can [see in the original notebook](https://github.com/jupyter/blog/blob/master/notebooks/introduction/notebooks.ipynb)
 
 
 
@@ -309,7 +309,7 @@ your Jupyter Book as well!
 <div markdown="1" class="cell code_cell">
 <div class="input_area" markdown="1">
 ```python
-!jupyter-book create -h
+!blog create -h
 
 ```
 </div>
@@ -318,7 +318,7 @@ your Jupyter Book as well!
 <div class="output_subarea" markdown="1">
 {:.output_stream}
 ```
-usage: jupyter-book [-h] [--out-folder OUT_FOLDER] [--license LICENSE]
+usage: blog [-h] [--out-folder OUT_FOLDER] [--license LICENSE]
                     [--content-folder CONTENT_FOLDER] [--toc TOC]
                     [--config CONFIG] [--custom-css CUSTOM_CSS]
                     [--custom-js CUSTOM_JS]

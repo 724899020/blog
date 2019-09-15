@@ -14,29 +14,29 @@ comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /con
 
 This is a guide for creating your own book using
 Jupyter Notebooks and Jekyll. Book content is written in markdown and
-Jupyter Notebooks, and `jupyter-book` converts these into
+Jupyter Notebooks, and `blog` converts these into
 a book fit for hosting on the web.
 
 ## Install the command-line interface
 
 First off, make sure you have the CLI installed so that you can work with Jupyter Book.
-The Jupyter-Book CLI allows you to create, build, upgrade, and otherwise control your
+The blog CLI allows you to create, build, upgrade, and otherwise control your
 Jupyter Book. You can install it via pip with the following command:
 
 ```
-pip install jupyter-book
+pip install blog
 ```
 
 ## A quick tour of a Jupyter Book
 
-Jupyter-Book comes with a demo book so that you can see how the content files
+blog comes with a demo book so that you can see how the content files
 are used in the book. We'll begin with a quick tour of these files, as they are
 the pieces that you'll modify for your own book.
 
 To create a **demo Jupyter Book** to use as a template, run the following command:
 
 ```
-jupyter-book create mybookname --demo
+blog create mybookname --demo
 ```
 
 A new book will be created at the path that you've given (in this case, `mybookname/`).
@@ -130,7 +130,7 @@ The top-most level of your TOC file are **book chapters**. Above, this is the
 "Features and customization" page. Each chapter can have
 several sections (defined in `sections:`) and each section can have several sub-sections
 (which would be define with a deeper level of `sections:`). In addition, you can
-use a few extra YAML values to control the behavior of Jupyter-Book (for example,
+use a few extra YAML values to control the behavior of blog (for example,
 `not_numbered: true` will prevent Jupyter Book from numbering the pages in that chapter).
 
 Each item in the YAML file points to a single content file. The links
@@ -158,7 +158,7 @@ mybookname/
     └── LICENSE.md
 ```
 
-When you create a new book, if you don't specify a license, then `jupyter-book` will by default
+When you create a new book, if you don't specify a license, then `blog` will by default
 add a [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/)
 (CC BY-SA 4.0) license to your book. CC BY-SA requires attribution of
 your work, and also requires that any derivations someone creates are released

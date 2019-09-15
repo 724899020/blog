@@ -1,7 +1,7 @@
 # Books with Jupyter and Jekyll
 
-<a href="https://circleci.com/gh/jupyter/jupyter-book"><img src="https://circleci.com/gh/jupyter/jupyter-book.svg?style=svg" class="left"></a>
-<a href="https://codecov.io/gh/jupyter/jupyter-book"><img src="https://codecov.io/gh/jupyter/jupyter-book/branch/master/graph/badge.svg" class="left"></a>
+<a href="https://circleci.com/gh/jupyter/blog"><img src="https://circleci.com/gh/jupyter/blog.svg?style=svg" class="left"></a>
+<a href="https://codecov.io/gh/jupyter/blog"><img src="https://codecov.io/gh/jupyter/blog/branch/master/graph/badge.svg" class="left"></a>
 <a href="https://doi.org/10.5281/zenodo.2799972"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.2799972.svg" class="left"></a>
 <div style="clear:both;"></div>
 
@@ -40,7 +40,7 @@ Here are a few links of interest:
 To install the Jupyter Book command-line interface (CLI), use `pip`!
 
 ```
-pip install jupyter-book
+pip install blog
 ```
 
 ### Create a new book
@@ -49,7 +49,7 @@ Once you've installed the CLI, create a new book using the demo book content
 (the website that you're viewing now) with this command:
 
 ```
-jupyter-book create mybookname --demo
+blog create mybookname --demo
 ```
 
 ### Build the markdown for your book
@@ -57,7 +57,7 @@ jupyter-book create mybookname --demo
 Now, build the markdown that Jekyll will use for your book. Run this command:
 
 ```
-jupyter-book build mybookname
+blog build mybookname
 ```
 
 ### That's it!

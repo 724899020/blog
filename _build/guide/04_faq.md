@@ -22,7 +22,7 @@ upgrade your book.
 To upgrade a pre-existing Jupyter Book, run the following command:
 
 ```bash
-jupyter-book upgrade path/to/mybook
+blog upgrade path/to/mybook
 ```
 
 This will do the following:
@@ -32,11 +32,11 @@ This will do the following:
 2. If this succeeds, copy over the contents of `mybook_UPGRADED` into your current book folder.
 3. If this succeeds, delete the `mybook_UPGRADED` folder.
 
-Note that only the content that you can manually specify via the `jupyter-book create` command
+Note that only the content that you can manually specify via the `blog create` command
 will be retained in your upgraded book. For a list of these options, see the help menu for this command:
 
 ```bash
-jupyter-book create -h
+blog create -h
 ```
 
 You should check out the content in your upgraded book to make sure it looks correct, then
@@ -45,7 +45,7 @@ commit the changes to your repository.
 ## Does the book behave differently depending on the browser?
 
 Maybe - Jupyter Book does use some features that might have different behaviors in
-some browsers. For example, Safari [tends to treat downloadable objects](https://github.com/jupyter/jupyter-book/pull/104#issuecomment-462461188)
+some browsers. For example, Safari [tends to treat downloadable objects](https://github.com/jupyter/blog/pull/104#issuecomment-462461188)
 differently for some reason.
 
 The two browsers on which Jupyter Book should always behave as expected are
@@ -62,7 +62,7 @@ Jekyll strips escape characters, so you should make sure to add **two**
 escape characters when needed. This is done automatically for many escape
 characters in `generate_book.py`, and if you notice something that should
 be included in this script, please open an issue
-[at the textbook template issues page](https://github.com/jupyter/jupyter-book/issues)
+[at the textbook template issues page](https://github.com/jupyter/blog/issues)
 
 ## How can I include interactive Plotly figures?
 
@@ -89,7 +89,7 @@ Note that, if viewing the file on a Jupyter Notebook session, the figure will no
 ## What if I have an issue or question?
 
 If you've got questions, concerns, or suggestions, please open an issue at
-[at the jupyter book issues page](https://github.com/jupyter/jupyter-book/issues)
+[at the jupyter book issues page](https://github.com/jupyter/blog/issues)
 
 ## How should I add cell tags to my notebooks?
 
