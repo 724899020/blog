@@ -6,7 +6,7 @@ prev_page:
   url: /intro.html
   title: 'Intro'
 next_page:
-  url: /\features\features.html
+  url: /features/features.html
   title: 'Features'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---

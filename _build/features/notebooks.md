@@ -1,10 +1,10 @@
 ---
-interact_link: content/E:\code\businessDevOps\opsbook\content\features\notebooks.ipynb
+interact_link: content/E:\code\businessDevOps\opsbook\content\features/notebooks.ipynb
 kernel_name: python3
 has_widgets: false
 title: 'Notebooks'
 prev_page:
-  url: /\features\markdown.html
+  url: /features/markdown.html
   title: 'Markdown'
 next_page:
   url: 

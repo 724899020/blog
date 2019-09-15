@@ -34,8 +34,8 @@
 
 # ===== NEW SECTION ========================================
 - title: Features
-  url: /features/features
+  url: \features\features
 - title: Markdown
-  url: /features/markdown
+  url: \features\markdown
 - title: Notebooks
-  url: /features/notebooks
+  url: \features\notebooks

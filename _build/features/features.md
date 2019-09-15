@@ -4,7 +4,7 @@ prev_page:
   url: /LICENSE.html
   title: 'License'
 next_page:
-  url: /\features\markdown.html
+  url: /features/markdown.html
   title: 'Markdown'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
