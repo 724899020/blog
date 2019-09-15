@@ -62,7 +62,7 @@ blog build mybookname
 
 ### That's it!
 
-You can now either push your book to GitHub and serve the demo with gh-pages,
+You can now either push your book to GitHub and serve the demo with master,
 or modify the book with your own content.
 
 
