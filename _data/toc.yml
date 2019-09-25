@@ -35,5 +35,7 @@
   url: 逻辑工作法
 
 # ===== NEW SECTION ========================================
+- title: Python输出文件时带utf8bom
+  url: /python/python输出文件时带UTF8BOM
 - title: 参数
   url: /python/参数
